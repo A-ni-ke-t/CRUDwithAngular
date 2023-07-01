@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit</title>
+</head>
+<body>
+    <div class="container">
+        <legend>Modify</legend>
+        <form>
+            <div class="mb-3">
+                <label for="txtId" class="form-label"> Enter Student Id</label>
+                <input type="text" name="id" [(ngModel)]="studentsForm.id" class="form-control" id="txtid"/>
+            </div>
+            <div class="mb-3">
+                <label for="txtName" class="form-label"> Enter First Name</label>
+                <input type="text" name="firstName" [(ngModel)]="studentsForm.firstName" class="form-control" id="txtName"/>
+            </div>
+            <div class="mb-3">
+                <label for="txtCity" class="form-label"> Enter City</label>
+                <input type="text" name="City" [(ngModel)]="studentsForm.city" class="form-control" id="txt"/>
+            </div>
+            <div class="mb-3">
+                <label for="txtAge" class="form-label"> Enter Age</label>
+                <input type="text" name="Age" [(ngModel)]="studentsForm.age" class="form-control" id="txtName"/>
+            </div>
+            <div class="mb-3">
+                <label for="txtCountry" class="form-label"> Enter Country</label>
+                <input type="text" name="Country" [(ngModel)]="studentsForm.country" class="form-control" id="txtName"/>
+            </div>
+            <button type="button" (click)="update()" class="btn btn-primary">Modify</button>
+        </form>
+    </div>
+</body>
+</html>

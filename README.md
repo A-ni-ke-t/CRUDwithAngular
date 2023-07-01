@@ -1,1 +1,3 @@
-# CRUDwithAngular
+# ANGULARCRUDDEMO
+
+It exemplifies the fundamental CRUD operations implemented in Angular. This application enables the registration of student details, facilitates updates to their information, provides seamless access to read their details, and offers the option to delete them when necessary. The development of this application is currently ongoing to further enhance its functionality and features.

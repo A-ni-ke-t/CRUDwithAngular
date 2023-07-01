@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete</title>
+</head>
+<body>
+    <div class="container">
+        <legend>Delete</legend>
+        <form>
+            <div class="mb-3">
+                <label for="txtId" class="form-label"> Enter Student Id</label>
+                <input type="text" name="id" [(ngModel)]="studentsForm.id" class="form-control" id="txtid"/>
+            </div>
+            
+            <button type="button" (click)="delete()" class="btn btn-primary">Delete</button>
+        </form>
+    </div>
+</body>
+</html>

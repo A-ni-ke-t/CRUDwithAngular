@@ -1,0 +1,18 @@
+{
+  "Students": [
+    {
+      "id": 1,
+      "firstName": "Aniket",
+      "city": "Mumbai",
+      "age": 22,
+      "country": "India"
+    },
+    {
+      "id": "2",
+      "firstName": "Prem",
+      "city": "Mumbai",
+      "age": "30",
+      "country": "India"
+    }
+  ]
+}
